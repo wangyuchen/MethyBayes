@@ -1,8 +1,4 @@
-
-
-
 #process row_data
-
 #'This is a function to merge BS-seq data from multiple replicates.
 #'
 #'Return read counts and methylated reads counts for sites commonly

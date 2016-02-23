@@ -1,12 +1,10 @@
- #' a utility function to process the read counts and
+#' A utility function to process the read counts and
 #' methylated read counts to a new data matrix used for MCMC s
 #' @param data a list of read counts, methylated read counts and commonly mapped sites
 #' @param n1 number of replicates in treatment experiment
 #' @param n2 number of replicates in control experiments
 #' @return p matrix used for MCMC
 #' @export
-
-
 process<-function(data, n1, n2){
   set.seed(123123123)
   C<-data[[1]]

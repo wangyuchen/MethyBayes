@@ -13,8 +13,6 @@
 #' @param beta3 parameter value for likelihood in group 1
 #' @return the likelihood of the data given the site belonging to group 1
 #'
-
-
 lklihd3<-function(CDcol,CUcol,MDcol,MUcol,integ2, alpha3,beta3){
   NDcol<-CDcol-MDcol
   NUcol<-CUcol-MUcol
@@ -31,5 +29,4 @@ lklihd3<-function(CDcol,CUcol,MDcol,MUcol,integ2, alpha3,beta3){
   prob2[prob2<0.00001]<-0.00001
   l4<-log(2)+log(prob2)
   l1+l2+l3+l4
-
 }
