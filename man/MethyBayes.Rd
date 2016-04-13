@@ -24,4 +24,10 @@ methylation identification result matrix, first
 Returns the methylation identification result for all sites
 commonly mapped by all replicates under two experimental conditions
 }
+\examples{
+data("case1", "case2", "control1", "control2")
+read_counts <- seqdata(list(case1, case2), list(control1, control2))
+ident <- MethyBayes(read_counts, 2, 2)
+
+}
 

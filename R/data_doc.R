@@ -14,6 +14,7 @@
 #'   \item{freqC}{numeric ...}
 #'   \item{freqT}{numeric ...}
 #' }
+#'
 #' @rdname demo_data
 "case1"
 

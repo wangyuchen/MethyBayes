@@ -1,7 +1,7 @@
 Package: MethyBayes
 Title: Full Bayesian Partition Model for Identifying Differentially Methylated
     Loci
-Version: 0.1.0-9000
+Version: 0.1.0
 Authors@R: c(
     person("Henan", "Wang", email = "hwg58@mail.missouri.edu",
            role = c("cre", "aut")),
@@ -9,6 +9,6 @@ Authors@R: c(
 Description: A full bayesian partition model is implemented to identify
     differentiall methylated loci from single nucleotide resoltion sequencing
     data.
+Depends: R (>= 3.2)
 License: GPL-2
 RoxygenNote: 5.0.1
-

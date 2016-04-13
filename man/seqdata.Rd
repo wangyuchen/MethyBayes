@@ -21,6 +21,7 @@ Return read counts and methylated reads counts for sites commonly
 mapped by all replicates
 }
 \examples{
-seqdata(list(case1, case2), list(control1, control2))
+data("case1", "case2", "control1", "control2")
+read_counts <- seqdata(list(case1, case2), list(control1, control2))
 }
 

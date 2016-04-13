@@ -8,7 +8,8 @@ methylated read counts to a new data matrix used for MCMC s}
 process(data, n1, n2)
 }
 \arguments{
-\item{data}{a list of read counts, methylated read counts and commonly mapped sites}
+\item{data}{a list of read counts, methylated read counts and commonly
+mapped sites}
 
 \item{n1}{number of replicates in treatment experiment}
 
