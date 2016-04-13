@@ -1,13 +1,14 @@
 Package: MethyBayes
-Type: Package
-Title: A FULL BAYESIAN PARTITION MODEL for IDENTIFYING DIFFERENTIALLY
-        METHYLATED LOCI FROM SINGLE NUCLEOTIDE RESOLTION SEQUENCING
-        DATA
-Version: 0.1
-Date: 2015-03-23
-Author: Henan Wang
-Maintainer: Henan Wang <hwg58@mail.missouri.edu>
-Description: This package applyes a full Bayesian partition model to
-              identify differentiall methylated loci
+Title: Full Bayesian Partition Model for Identifying Differentially Methylated
+    Loci
+Version: 0.1.0-9000
+Authors@R: c(
+    person("Henan", "Wang", email = "hwg58@mail.missouri.edu",
+           role = c("cre", "aut")),
+    person("Yuchen", "Wang", email = "ycwang0712@gmail.com", role = "aut"))
+Description: A full bayesian partition model is implemented to identify
+    differentiall methylated loci from single nucleotide resoltion sequencing
+    data.
 License: GPL-2
-Packaged: 2015-04-28 03:07:07 UTC; hwg58
+RoxygenNote: 5.0.1
+
