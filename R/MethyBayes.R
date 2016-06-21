@@ -34,7 +34,7 @@ MethyBayes<-function(data, n1, n2){
     #g<-1000000L
     # g<-l*1000L
     res <- matrix(0L, l, 3)
-    sum_counts<- .C("C_mcmc", l=as.integer(l), g0=as.integer(g0),
+    sum_counts<- .Fortran("mcmc_froutine", l=as.integer(l), g0=as.integer(g0),
                     g1=as.integer(g1), g=g, p=pnew, res)[[6]]
     Iprop <- apply(sum_counts, MARGIN = 1, which.max) - 1
     result<-rep(0, length(data[[3]]))
