@@ -9,13 +9,13 @@
 \title{Example datasets}
 \format{Both of the data sets are data frame with 7 variables:
 \describe{
-  \item{chrBase}{Factor}
+  \item{chrBase}{Factor with 4714 levels ...}
   \item{chr}{Factor with 1 level "chr1".}
-  \item{base}{integer ...}
+  \item{base}{Integer ...}
   \item{strand}{Factor with 2 levels "F" and "R".}
-  \item{coverage}{integer ...}
-  \item{freqC}{numeric ...}
-  \item{freqT}{numeric ...}
+  \item{coverage}{Integer ...}
+  \item{freqC}{Numeric ...}
+  \item{freqT}{Numeric ...}
 }}
 \usage{
 case1
@@ -27,6 +27,9 @@ control1
 control2
 }
 \description{
+Example datasets to test the basic functions.
+}
+\details{
 These are the datasets of case and controls, each have two replicates. Case
 1 and case 2 have 4714 and 5197 observations and control 1 and control 2
 have 1817 and 5249 observations respectively.
