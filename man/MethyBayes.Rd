@@ -24,10 +24,11 @@ This function returns the methylation identification result for all sites
 commonly mapped by all replicates under two experimental conditions.
 }
 \examples{
-data("case1", "case2", "control1", "control2")
-read_counts <- seqdata(list(case1, case2), list(control1, control2))
-ident <- MethyBayes(read_counts, 2, 2)
-
+\dontrun{
+ data("case1", "case2", "control1", "control2")
+ read_counts <- seqdata(list(case1, case2), list(control1, control2))
+ ident <- MethyBayes(read_counts, 2, 2)
+}
 }
 \references{
 Wang, H., He, C., Kushwaha, G., Xu, D., \& Qiu, J. (2016).

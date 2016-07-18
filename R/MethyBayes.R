@@ -17,10 +17,11 @@
 #' 17(1), 71.
 #'
 #' @examples
-#' data("case1", "case2", "control1", "control2")
-#' read_counts <- seqdata(list(case1, case2), list(control1, control2))
-#' ident <- MethyBayes(read_counts, 2, 2)
-#'
+#' \dontrun{
+#'  data("case1", "case2", "control1", "control2")
+#'  read_counts <- seqdata(list(case1, case2), list(control1, control2))
+#'  ident <- MethyBayes(read_counts, 2, 2)
+#' }
 #' @export
 #' @useDynLib MethyBayes
 MethyBayes<-function(data, n1, n2){
