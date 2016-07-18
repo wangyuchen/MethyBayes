@@ -9,13 +9,15 @@
 \title{Example datasets}
 \format{Both of the data sets are data frame with 7 variables:
 \describe{
-  \item{chrBase}{Factor with 4714 levels ...}
-  \item{chr}{Factor with 1 level "chr1".}
-  \item{base}{Integer ...}
-  \item{strand}{Factor with 2 levels "F" and "R".}
-  \item{coverage}{Integer ...}
-  \item{freqC}{Numeric ...}
-  \item{freqT}{Numeric ...}
+  \item{chrBase}{Factor with 4714 levels, unique ID.}
+  \item{chr}{Factor with 1 level "chr1", Chromosome name.}
+  \item{base}{Integer of base position.}
+  \item{strand}{Factor with 2 levels "F" and "R" for strand.}
+  \item{coverage}{Integer of read coverage, i.e, total number of reads.}
+  \item{freqC}{Numeric percentage (0 - 100) of C bases on that location,
+               i.e. percentage of reads showing methylation.}
+  \item{freqT}{Numeric percentage of T bases on that location, i.e.
+               percentage of reads showing un-methylation.}
 }}
 \usage{
 case1
@@ -27,7 +29,8 @@ control1
 control2
 }
 \description{
-Example datasets to test the basic functions.
+Simulated example datasets to illustrate the format of data and test the
+basic functions.
 }
 \details{
 These are the datasets of case and controls, each have two replicates. Case

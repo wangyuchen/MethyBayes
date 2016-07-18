@@ -2,8 +2,7 @@
 % Please edit documentation in R/MethyBayes.R
 \name{MethyBayes}
 \alias{MethyBayes}
-\title{This is a function to produce methylation identification result
-This is a function}
+\title{This is a function to produce methylation identification result}
 \usage{
 MethyBayes(data, n1, n2)
 }
@@ -21,13 +20,19 @@ methylation identification result matrix, first
         list of identification result
 }
 \description{
-Returns the methylation identification result for all sites
-commonly mapped by all replicates under two experimental conditions
+This function returns the methylation identification result for all sites
+commonly mapped by all replicates under two experimental conditions.
 }
 \examples{
 data("case1", "case2", "control1", "control2")
 read_counts <- seqdata(list(case1, case2), list(control1, control2))
 ident <- MethyBayes(read_counts, 2, 2)
 
+}
+\references{
+Wang, H., He, C., Kushwaha, G., Xu, D., \& Qiu, J. (2016).
+A full Bayesian partition model for identifying hypo-and hyper-methylated
+loci from single nucleotide resolution sequencing data. BMC bioinformatics,
+17(1), 71.
 }
 
