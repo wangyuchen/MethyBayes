@@ -8,8 +8,8 @@ Authors@R: c(
     person("Yuchen", "Wang", email = "ycwang0712@gmail.com",
            role = "aut")
     )
-Description: A full bayesian partition model is implemented to identify
-    differentiall methylated loci from single nucleotide resoltion sequencing
+Description: A full Bayesian partition model is implemented to identify
+    differentially methylated loci from single-nucleotide resolution sequencing
     data.
 Depends: R (>= 3.2)
 License: GPL-2

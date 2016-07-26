@@ -1,4 +1,3 @@
-
 process<-function(data, n1, n2){
     # a utility function to process the read counts and
     # methylated read counts to a new data matrix used for MCMC s

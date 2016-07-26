@@ -7,18 +7,18 @@
 seqdata(cases, controls)
 }
 \arguments{
-\item{cases}{a list of data frames for multiple biological replicates
-under treatment experiment}
+\item{cases}{A list of data frames for multiple biological replicates
+under treatment experiment.}
 
-\item{controls}{a list of data frames for multiple biological replicates
-under control experiment}
+\item{controls}{A list of data frames for multiple biological replicates
+under control experiment.}
 }
 \value{
-a list of read counts, methylated reads and commonly mapped sites
+A list of read counts, methylated reads and commonly mapped sites.
 }
 \description{
 Return read counts and methylated reads counts for sites commonly
-mapped by all replicates
+mapped by all replicates.
 }
 \examples{
 data("case1", "case2", "control1", "control2")

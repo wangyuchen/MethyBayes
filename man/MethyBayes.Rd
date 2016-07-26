@@ -2,22 +2,21 @@
 % Please edit documentation in R/MethyBayes.R
 \name{MethyBayes}
 \alias{MethyBayes}
-\title{This is a function to produce methylation identification result}
+\title{This is a function to produce methylation identification result.}
 \usage{
 MethyBayes(data, n1, n2)
 }
 \arguments{
-\item{data}{a list of read counts , methylated read counts and
-sites commonly mapped by all replicates}
+\item{data}{A list of read counts, methylated read counts and
+sites commonly mapped by all replicates.}
 
-\item{n1}{number of replicates in treatment experiment}
+\item{n1}{Number of replicates in treatment experiment.}
 
-\item{n2}{number of replicates in control experiment}
+\item{n2}{Number of replicates in control experiment.}
 }
 \value{
-methylation identification result matrix, first
-        column is the list of sites, second column is the
-        list of identification result
+Methylation identification result matrix, first column is the list
+of sites, second column is the list of identification result.
 }
 \description{
 This function returns the methylation identification result for all sites

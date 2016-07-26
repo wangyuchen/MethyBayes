@@ -1,16 +1,16 @@
-#'This is a function to merge BS-seq data from multiple replicates.
+#' This is a function to merge BS-seq data from multiple replicates.
 #'
-#'Return read counts and methylated reads counts for sites commonly
-#' mapped by all replicates
-#'@param cases a list of data frames for multiple biological replicates
-#'       under treatment experiment
-#'@param controls a list of data frames for multiple biological replicates
-#'       under control experiment
-#'@return a list of read counts, methylated reads and commonly mapped sites
+#' Return read counts and methylated reads counts for sites commonly
+#' mapped by all replicates.
+#' @param cases A list of data frames for multiple biological replicates
+#'       under treatment experiment.
+#' @param controls A list of data frames for multiple biological replicates
+#'       under control experiment.
+#' @return A list of read counts, methylated reads and commonly mapped sites.
 #' @examples
 #' data("case1", "case2", "control1", "control2")
 #' read_counts <- seqdata(list(case1, case2), list(control1, control2))
-#'@export
+#' @export
 seqdata<-function(cases, controls){
     n1<-length(cases)
     n2<-length(controls)

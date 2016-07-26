@@ -33,8 +33,8 @@ Simulated example datasets to illustrate the format of data and test the
 basic functions.
 }
 \details{
-These are the datasets of case and controls, each have two replicates. Case
-1 and case 2 have 4714 and 5197 observations and control 1 and control 2
+These are the datasets of cases and controls, each have two replicates. Case
+1 and case 2 have 4714 and 5197 observations while control 1 and control 2
 have 1817 and 5249 observations respectively.
 }
 \keyword{datasets}

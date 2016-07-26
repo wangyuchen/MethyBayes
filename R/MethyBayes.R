@@ -1,15 +1,14 @@
-#' This is a function to produce methylation identification result
+#' This is a function to produce methylation identification result.
 #'
 #' This function returns the methylation identification result for all sites
 #' commonly mapped by all replicates under two experimental conditions.
 #'
-#' @param data a list of read counts , methylated read counts and
-#'        sites commonly mapped by all replicates
-#' @param n1 number of replicates in treatment experiment
-#' @param n2 number of replicates in control experiment
-#' @return methylation identification result matrix, first
-#'         column is the list of sites, second column is the
-#'         list of identification result
+#' @param data A list of read counts, methylated read counts and
+#'        sites commonly mapped by all replicates.
+#' @param n1 Number of replicates in treatment experiment.
+#' @param n2 Number of replicates in control experiment.
+#' @return Methylation identification result matrix, first column is the list
+#' of sites, second column is the list of identification result.
 #'
 #' @references Wang, H., He, C., Kushwaha, G., Xu, D., \& Qiu, J. (2016).
 #' A full Bayesian partition model for identifying hypo-and hyper-methylated
